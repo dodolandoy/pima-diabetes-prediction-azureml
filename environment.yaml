@@ -1,0 +1,16 @@
+name: pima-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11.5
+  - pip
+  - pip:
+      - pandas
+      - numpy
+      - scikit-learn
+      - joblib
+      - azureml-defaults
+      - matplotlib
+      - seaborn
+      - mlflow

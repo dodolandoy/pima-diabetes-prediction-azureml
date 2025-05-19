@@ -1,0 +1,9 @@
+name: blue
+endpoint_name: pima-diabetes-endpoint
+model: azureml:pimadiabetes_logistic_regression_model@latest
+code_configuration:
+  code: .
+  scoring_script: score.py
+environment: azureml:pima-env@latest
+instance_type: Standard_DS2_v2
+instance_count: 1
