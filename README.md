@@ -4,6 +4,16 @@
 ![AzureML](https://img.shields.io/badge/Azure-ML-informational)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
+## Table of Contents
+- [Summary](#summary)
+- [Project Structure](#project-structure)
+- [Requirements](#requirements)
+- [Dataset](#dataset)
+- [Pipeline Overview](#pipeline-overview)
+- [Model Deployment](#model-deployment)
+- [Testing the Endpoint](#testing-the-endpoint)
+- [Reproducibility Notice](#reproducibility-notice)
+- 
 ##  Summary
 
 This project uses the **Pima Indians Diabetes Dataset** to train and deploy a logistic regression model that predicts the onset of diabetes.  
