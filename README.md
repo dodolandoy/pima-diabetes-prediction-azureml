@@ -107,7 +107,6 @@ submit_train.ipynb
 - `metrics_summary.csv`
 - `roc_combined.csv`
 - `learning_curves_combined.csv`
-
 ---
 
 ### 3. Visualization (Power BI)
@@ -118,7 +117,8 @@ Use the following CSV files:
 - `metrics_summary.csv`
 - `roc_combined.csv`
 - `learning_curves_combined.csv`
-
+### Power BI Dashboard Preview
+![Power BI Dashboard](powerbi_dashboard.PNG)
 ---
 
 ## Model Deployment
@@ -144,15 +144,12 @@ az ml online-endpoint create --file endpoint.yaml --workspace-name <YOUR_WORKSPA
 # Deploy the model to the endpoint
 az ml online-deployment create --file deployment.yaml   --workspace-name <YOUR_WORKSPACE_NAME>   --resource-group <YOUR_RESOURCE_GROUP>   --endpoint-name pima-diabetes-endpoint   --all-traffic
 ```
-
 ---
-
 ##  Testing the Endpoint
 
 ```bash
 az ml online-endpoint invoke   --name pima-diabetes-endpoint   --request-file test.json   --resource-group <YOUR_RESOURCE_GROUP>   --workspace-name <YOUR_WORKSPACE_NAME>
 ```
-
 **Example `test.json` file:**
 
 ```json
@@ -162,7 +159,6 @@ az ml online-endpoint invoke   --name pima-diabetes-endpoint   --request-file te
   ]
 }
 ```
-
 ---
 
 ##  Reproducibility Notice
