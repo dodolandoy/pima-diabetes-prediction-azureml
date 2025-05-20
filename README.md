@@ -3,7 +3,9 @@
 ![Python](https://img.shields.io/badge/Python-3.7%2B-blue)
 ![AzureML](https://img.shields.io/badge/Azure-ML-informational)
 ![License](https://img.shields.io/badge/license-MIT-green)
+## Architecture Overview
 
+![Architecture](architecture_pipeline.PNG)
 
 ## Table of Contents
 - [Summary](#summary)
