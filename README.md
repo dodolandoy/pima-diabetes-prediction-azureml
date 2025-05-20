@@ -12,8 +12,9 @@
 - [Pipeline Overview](#pipeline-overview)
 - [Model Deployment](#model-deployment)
 - [Testing the Endpoint](#testing-the-endpoint)
+- [Visualization (Power BI)](#visualization-power-bi)
 - [Reproducibility Notice](#reproducibility-notice)
-- 
+
 ##  Summary
 
 This project uses the **Pima Indians Diabetes Dataset** to train and deploy a logistic regression model that predicts the onset of diabetes.  
@@ -108,17 +109,6 @@ submit_train.ipynb
 - `roc_combined.csv`
 - `learning_curves_combined.csv`
 ---
-
-### 3. Visualization (Power BI)
-
-Use the following CSV files:
-- `data_diabetesPima_clean.csv`
-- `correlation_matrix.csv`
-- `metrics_summary.csv`
-- `roc_combined.csv`
-- `learning_curves_combined.csv`
-### Power BI Dashboard Preview
-![Power BI Dashboard](powerbi_dashboard.PNG)
 ---
 
 ## Model Deployment
@@ -159,6 +149,17 @@ az ml online-endpoint invoke   --name pima-diabetes-endpoint   --request-file te
   ]
 }
 ```
+---
+## Visualization (Power BI)
+
+Use the following CSV files:
+- `data_diabetesPima_clean.csv`
+- `correlation_matrix.csv`
+- `metrics_summary.csv`
+- `roc_combined.csv`
+- `learning_curves_combined.csv`
+### Power BI Dashboard Preview
+![Power BI Dashboard](powerbi_dashboard.PNG)
 ---
 
 ##  Reproducibility Notice
