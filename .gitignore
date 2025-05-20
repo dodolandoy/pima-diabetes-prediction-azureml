@@ -172,3 +172,12 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Project-specific files to ignore
+*.csv
+*.pkl
+*.png
+*.json
+outputs/
+logs/
+
