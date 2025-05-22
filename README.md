@@ -5,7 +5,7 @@
 ![License](https://img.shields.io/badge/license-MIT-green)
 ## Architecture Overview
 
-![Architecture](architecture_pipeline2.svg)
+![Architecture](pipeline_architecture.gif)
 
 ## Table of Contents
 - [Summary](#summary)
